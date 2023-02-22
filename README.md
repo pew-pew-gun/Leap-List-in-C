@@ -5,7 +5,7 @@ Implemented a probabilistic data structure called a 'leap list'. Essentially wor
 How do we select the items in the second list that we wish to keep?
 We choose them randomly, and we will let p denote the probability of keeping an item. Then we can generalise further and have a third list that keeps even less and less items, will the same probability p of drawing items from the second list. Each progressive list will be a proper subset of a list on a lower level.
 
-problem1a.c contains the driver code to populate and insert elements into a leap list and to then query certain values by performing a search.
+> problem1a.c contains the driver code to populate and insert elements into a leap list and to then query certain values by performing a search.
 
 Input:
 The input to the program is delivered on stdin, it follows the following pattern:
@@ -33,7 +33,7 @@ The output from the program should be one line per query element, matching the f
 <required accesses> is the number of pointer accesses required to find the element in the leap list. 
 
 
-problem1b.c contains the driver code to populate a leap list, then deletes given elements from that leap list, then queries certain values by searching the resultant leap list.
+> problem1b.c contains the driver code to populate a leap list, then deletes given elements from that leap list, then queries certain values by searching the resultant leap list.
 
 Input:
 The input to the program is delivered on stdin, it follows the following pattern:
