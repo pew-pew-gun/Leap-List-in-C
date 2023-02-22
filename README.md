@@ -32,7 +32,6 @@ The output from the program should be one line per query element, matching the f
 <base accesses> is the position of the element being searched for in the base level of the leap list - treating the roots of the leap list as the 0th element. This could also be thought of as the number of pointer accesses which would be required to reach the element in a regular linked list (including the initial head pointer access).
 <required accesses> is the number of pointer accesses required to find the element in the leap list. 
 
-
 > problem1b.c contains the driver code to populate a leap list, then deletes given elements from that leap list, then queries certain values by searching the resultant leap list.
 
 Input:
